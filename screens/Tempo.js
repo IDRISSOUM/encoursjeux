@@ -91,7 +91,7 @@ class Tempo extends Component {
   componentDidMount() {
     setTimeout(() => {
       this.props.navigation.navigate('Home');
-    }, 20000);
+    }, 2000);
   }
 }
 export default Tempo;
